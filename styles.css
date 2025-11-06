@@ -1,11 +1,165 @@
-/* Add your CSS to this file */
+/* Basic page setup */
 body {
-    margin: 0;
-    font-size: 16px;
+  font-family: system-ui, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: black;
 }
 
+/* Wrapper for spacing */
 .container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Header */
+header {
+  background-color: white;
+  padding: 15px 0;
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav a {
+  color: #6b7280;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #5A67D8;
+}
+
+/* Hero Section */
+.overview-hero {
+  background-color: #E2E8F0;
+  padding: 30px 0;
+}
+
+.overview-hero img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin: 0 auto 15px auto;
+}
+
+/* Learn About Section */
+.learn-about h2 {
+  color: #48BB78;
+  font-size: 24px;
+}
+
+.cards {
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  width: 30%;
+  border: 1px solid #E2E8F0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  margin: 10px;
+  vertical-align: top;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.card h3 {
+  color: #48BB78;
+  font-size: 21px;
+}
+
+/* COVID-19 Testing Section */
+.testing {
+  background-color: #4A5568;
+  color: white;
+  padding: 30px 0;
+}
+
+.testing .btn {
+  background-color: #48BB78;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Recent Stories Section */
+.stories h2 {
+  color: #5A67D8;
+}
+
+.stories article {
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.stories img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.article-body h3 {
+  font-size: 18px;
+}
+
+.article-body a {
+  color: #5A67D8;
+}
+
+/* Newsletter */
+.newsletter {
+  background-color: #48BB78;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.newsletter input {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.newsletter .btn {
+  background-color: #5A67D8;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: #4A5568;
+  color: white;
+  text-align: center;
+  padding: 15px;
 }
